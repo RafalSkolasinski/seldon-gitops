@@ -34,6 +34,9 @@
                             "containers": [
                                 {
                                     "name": "image-outliers-container",
+                                    "env": [
+                                        {"name": "SELDON_LOG_LEVEL", "value": "DEBUG"}
+                                    ],
                                     "resources": {}
                                 }
                             ]
