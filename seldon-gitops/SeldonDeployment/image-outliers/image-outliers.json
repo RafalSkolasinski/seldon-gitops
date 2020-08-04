@@ -22,7 +22,7 @@
                     },
                     "modelUri": "gs://seldon-models/tfserving/cifar10/resnet32",
                     "logger": {
-                        "url": "http://default-broker.seldon-logs",
+                        "url": "http://default-broker",
                         "mode": "all"
                     }
                 },
